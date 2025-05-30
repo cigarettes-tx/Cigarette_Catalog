@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cigarette Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 10px 0 5px;
+        }
+        .price {
+            color: #e53935;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cigarette Catalog</h1>
+    <div class="container">
+        <div class="card">
+            <img src="images/brand1.jpeg" alt="Brand 1">
+            <h3>Brand 1</h3>
+            <p class="price">$5.00</p>
+        </div>
+        <div class="card">
+            <img src="images/brand2.jpeg" alt="Brand 2">
+            <h3>Brand 2</h3>
+            <p class="price">$6.50</p>
+        </div>
+        <div class="card">
+            <img src="images/brand3.jpeg" alt="Brand 3">
+            <h3>Brand 3</h3>
+            <p class="price">$7.25</p>
+        </div>
+        <div class="card">
+            <img src="images/brand4.jpeg" alt="Brand 4">
+            <h3>Brand 4</h3>
+            <p class="price">$4.75</p>
+        </div>
+        <div class="card">
+            <img src="images/brand5.jpeg" alt="Brand 5">
+            <h3>Brand 5</h3>
+            <p class="price">$5.50</p>
+        </div>
+    </div>
+</body>
+</html>
